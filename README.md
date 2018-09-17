@@ -1,6 +1,17 @@
 README
 ======
 
+To run locally
+--------------
+
+- Have Nodejs installed (at least version 10.8.0)
+
+- clone repo
+
+- npm install to install dependencies
+
+- to run 'node index.js', then navigate to localhost:5000
+
 
 Tech to use
 -----------
