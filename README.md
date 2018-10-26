@@ -13,8 +13,8 @@ To run locally
 - to run 'npm run dev', then navigate to localhost:5000
 
 
-Tech to use
------------
+Tech being used
+---------------
 
 - Express server
 
