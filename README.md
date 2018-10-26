@@ -8,7 +8,7 @@ To run locally
 
 Clone the repo into your projects folder:
 
-```$ git clone __________ ```
+```$ git clone https://github.com/ashleigh090990/react-node-survey-maker.git```
 
 Install the project's dependencies:
 
