@@ -10,7 +10,7 @@ To run locally
 
 - npm install to install dependencies
 
-- to run 'node index.js', then navigate to localhost:5000
+- to run 'npm run dev', then navigate to localhost:5000
 
 
 Tech to use
