@@ -6,11 +6,21 @@ To run locally
 
 - Have Nodejs installed (at least version 10.8.0)
 
-- clone repo
+Clone the repo into your projects folder:
 
-- npm install to install dependencies
+```$ git clone __________ ```
 
-- to run 'npm run dev', then navigate to localhost:5000
+Install the project's dependencies:
+
+```$ npm install```
+
+You'd need to set up your own Google+ API authentication keys (referred to in the application as ```googleClientID``` and ```googleClientSecret```) and set up a MongoDB database (the URI of which is referred to in the application as ```mongoURI```), (what var names to use) and place these in a separate keys.js folder. There's a 'keys-example.js' in the config folder that you can rename to 'keys.js' and amend the values for the appropriate keys.
+
+Run the project locally:
+
+```npm run dev```
+
+Navigate to localhost:5000 to view the app.
 
 
 Tech being used
