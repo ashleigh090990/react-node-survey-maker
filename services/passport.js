@@ -6,6 +6,16 @@ const keys = require('../config/keys');
 
 const User = mongoose.model('users');
 
+passport.serializeUser((user, done) => {
+    done(null, user.id);
+});
+
+passport.deserializeUser((id, done) => {
+	User.findById(id).then(user => {
+        done(null, user);
+	})
+});
+
 passport.use(
 	// GoogleStrategy has internal identifier 'google'
 	// Want to ask for 'profile' and 'email' (see below)

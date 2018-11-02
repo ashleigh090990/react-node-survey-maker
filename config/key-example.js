@@ -7,5 +7,6 @@ module.exports = {
 	// you'd need to replace the <dbuser> with your database user's name
 	// and you'd need to replace <dbpassword> with the database user's password
 	// it should vaguely look like this:
-	mongoURI: 'mongodb://USER_NAME:USER_PASSWORD@XXXXXXXXXX.mlab.com:00000/XXXXXXXXXXXX'
+	mongoURI: 'mongodb://USER_NAME:USER_PASSWORD@XXXXXXXXXX.mlab.com:00000/XXXXXXXXXXXX',
+	cookieKey: 'whateveryouwantmetobe'
 }
