@@ -23,6 +23,12 @@ Run the project locally:
 Navigate to localhost:5000 to view the app.
 
 
+Functionality
+-------------
+
+Users can sign up and log in with their Google + accounts.
+
+
 Tech being used
 ---------------
 
