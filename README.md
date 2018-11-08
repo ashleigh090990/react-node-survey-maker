@@ -16,7 +16,7 @@ Install the project's dependencies:
 
 You'd need to set up your own Google+ API authentication keys (referred to in the application as ```googleClientID``` and ```googleClientSecret```) and set up a MongoDB database (the URI of which is referred to in the application as ```mongoURI```), (what var names to use) and place these in a separate keys.js folder. There's a 'dev-example.js' in the config folder that you can rename to 'keys.js' and amend the values for the appropriate keys.
 
-Run the express server locally:
+Run the express server and client server together locally:
 
 ```npm run dev```
 
@@ -24,7 +24,15 @@ Navigate to localhost:5000 to view the app.
 
 Currently being hosted at https://ashleigh-nodejs-react-survey.herokuapp.com/
 
-To run the client server:
+To run just the the express server:
+
+```npm run server```
+
+To run just the the client server:
+
+```npm run client```
+
+Or
 
 ```cd client```
 ```npm start```
