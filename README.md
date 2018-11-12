@@ -14,6 +14,12 @@ Install the project's dependencies:
 
 ```$ npm install```
 
+and 
+
+```cd client```
+```$ npm install```
+```$ cd ..```
+
 You'd need to set up your own Google+ API authentication keys (referred to in the application as ```googleClientID``` and ```googleClientSecret```) and set up a MongoDB database (the URI of which is referred to in the application as ```mongoURI```), (what var names to use) and place these in a separate keys.js folder. There's a 'dev-example.js' in the config folder that you can rename to 'keys.js' and amend the values for the appropriate keys.
 
 Run the express server and client server together locally:
