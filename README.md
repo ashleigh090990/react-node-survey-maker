@@ -50,6 +50,8 @@ Functionality
 
 Users can sign up and log in with their Google + accounts.
 
+Note: locally, separate servers are running for React and Express, hence why why the proxy has been set up, but this won't be the same when it's deployed (the client server is only for the create react app)
+
 
 Tech being used
 ---------------
